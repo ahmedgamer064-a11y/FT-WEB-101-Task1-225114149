@@ -1,53 +1,59 @@
-<!-- Ahmed Osama Abdullah - 225114149 -->
+<!-- Ahmed Osama Abdullah | Student ID: 225114149 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Profile</title>
+  <title>Ahmed Osama Abdullah</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
     <h1>Ahmed Osama Abdullah</h1>
+
     <nav class="bar">
-      <span>Ahmed Osama Abdullah</span>
-      <div class="links">
+      <span class="bar-name">Ahmed Osama Abdullah</span>
+      <div class="bar-links">
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
+        <a href="https://github.com/YOUR-USERNAME">GitHub</a>
       </div>
     </nav>
   </header>
 
   <main>
-    <button id="theme-btn">Change Theme</button>
+    <section id="about">
+      <img src="images/me.jpg" alt="Portrait photo of Ahmed Osama Abdullah" class="photo">
 
-    <img src="images/me.jpg" alt="Photo of Ahmed Osama Abdullah">
-
-    <section id="about" class="cards">
-      <div class="card">
-        <h2>Reading</h2>
-        <p>I enjoy reading books to gain new knowledge and expand my skills.</p>
-      </div>
-      <div class="card">
-        <h2>Coding</h2>
-        <p>I love building software and exploring new programming technologies.</p>
-      </div>
-      <div class="card">
-        <h2>Self-Development</h2>
-        <p>I am always striving to learn and improve my personal daily habits.</p>
+      <div class="cards">
+        <div class="card">
+          <h2>Skills</h2>
+          <p>HTML, CSS and JavaScript basics.</p>
+        </div>
+        <div class="card">
+          <h2>Hobbies</h2>
+          <p>Football, gaming and reading.</p>
+        </div>
+        <div class="card">
+          <h2>Study</h2>
+          <p>Computer Science at New Mansoura University.</p>
+        </div>
       </div>
     </section>
 
     <section id="contact">
-      <h2>Contact Me</h2>
+      <h2>Leave your details</h2>
       <form>
         <label for="name">Name</label>
-        <input type="text" id="name">
+        <input type="text" id="name" name="name">
+
         <label for="email">Email</label>
-        <input type="email" id="email">
+        <input type="email" id="email" name="email">
       </form>
     </section>
+
+    <button id="theme-btn" type="button">Dark / Light</button>
   </main>
 
   <footer>
